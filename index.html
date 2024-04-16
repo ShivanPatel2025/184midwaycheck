@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milestone Status Report: Chladni Plate Simulation</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin-bottom: 0px;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        h1 {
+            margin-top: 10px;
+            font-size: 22px;
+        }
+        h2 {
+            font-size: 16px;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+        p, li { 
+            color: #555;
+            font-size: 12px;
+            line-height: 1.6;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        iframe {
+            width: 100%;
+            height: 360px;
+            border: none;
+            margin-top: 10px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Milestone Status Report: Chladni Plate Simulation</h1>
+        <div class="section">
+            <h2>Team Members</h2>
+            <p>Shivan Patel, Dhruv Chowdhary, Nellie Mullane, & Alejandro Dominguez</p>
+        </div>
+        <div class="section">
+            <h2>Project Summary</h2>
+            <p>In the first half of our Chladni Plate Simulation project, we've successfully created our framework and are able to simulate multiple frequencies and the patterns that form from them. We've developed our simulation by incorporating a model of the plate's vibrations using wave functions and the Chladni equation. Our simulated plate is divided into a grid, and by applying the Chladni equation at each of these points, we can calculate the vibration intensity, which corresponds to the amplitude of the wave at that particular location. Our model on the movement of particles consists of us calculating the gradient of the vibration intensity at each grid point. From this, we can determine the direction of the steepest descent from areas of high intensity to low intensity. This gradient effectively shows how particles are drawn towards the nodal lines,  or areas of zero amplitude. With each particle's position being updated based on the gradiant, our simulation is able to show the formation of distinct patterns at different frequencies and how particles move and settle into these patterns over time.</p>
+        </div>
+        <div class="section">
+            <h2>Reflection on Progress</h2>
+            <p>Our progress closely aligns with our planned outline; we are ahead of schedule by a bit. We were able to incorporate simple user interaction into the simulation already, which means we will have time in week 3 to improve user interaction with our simulation. The rest of week three will be working on improving the realism of the simulation by adding more randomness. Overall, we are happy with our progress and excited to tackle the next features of this project.</p> 
+        </div>
+        <div class="section">
+            <h2>Milestone Video <a href src="https://drive.google.com/file/d/1zG_yNgEoiXRYSN_CERtRiSCCmUftxFvN/view?usp=sharing"> Link</a>
+            <iframe src="https://drive.google.com/file/d/1zG_yNgEoiXRYSN_CERtRiSCCmUftxFvN/preview" width="640" height="480" allow="autoplay"></iframe>
+        </div>
+        <div class="section">
+            <h2>Presentation Slides</h2>
+            <p>Milestone Status Report Slides: <a href="https://docs.google.com/presentation/d/1MbFCdjFHx8gAC_BoFog2EeZQ6Z8u26lGGWlxq7zARNA/edit?usp=sharing" target="_blank">View Slides</a>.</p>
+        </div>
+        <div class="section">
+            <h2>Updated Work Plan</h2>
+            <p>Considering our current pace, future weeks involve increasing user interaction with the simulation and adding to the realness of the simulation. Because we are ahead of schedule, we are planning on tackling adding more user interaction in week 3.</p>
+            <ul>
+                <li>Week 1: Research phase - gather resources on Chladni patterns and simulation techniques.</li>
+                <li>Week 2: Development phase I - begin coding the basic simulation environment (modeling the plate, vibrations, and particles). (What we have completed now)</li>
+                <li>Week 3: Development phase II - making the frequency patterns simulate accurately & improving user interaction.</li>
+                <li>Week 4: Testing & presentation - test edge cases, refine the simulation, and prepare the final presentation.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
